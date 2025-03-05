@@ -1,0 +1,18 @@
+# Bank Account System - Encapsulation
+
+## What is Encapsulation?
+
+Encapsulation is an object-oriented programming principle where the internal details of a class are hidden from the outside. It helps protect the data by restricting direct access and only allowing controlled interaction through public methods.
+
+### Real-world Example:
+In a real bank account, you can't directly change the balance. You must go through proper methods like depositing or withdrawing money. Similarly, in code, encapsulation ensures sensitive data like balance and PIN are not directly accessible.
+
+---
+
+## About this Project
+
+This project is a simple Bank Account system built in Java, applying the concept of encapsulation. It includes:
+- Private fields for account details (account number, account holder, balance, and PIN).
+- Public methods to deposit and withdraw money.
+- PIN verification to protect sensitive operations.
+- Basic input validation to avoid invalid transactions.
